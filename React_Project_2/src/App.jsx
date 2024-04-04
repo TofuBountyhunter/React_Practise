@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 function App() {
-  const [color , setColor] = useState("rgb(17, 24, 39)")
+  const [color , setColor] = useState(()=>{return "rgb(17, 24, 39)";})
   
   return (
     <>

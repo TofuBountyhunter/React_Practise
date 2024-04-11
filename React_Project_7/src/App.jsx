@@ -1,10 +1,15 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
+import {Link,Outlet} from 'react-router-dom'
+import {Header,Footer,About,Contact,Home,Course,Error} from './components'
+
 
 function App() {
 
   return (
     <>
-      <div className='bg-sky-950 h-screen w-full'></div>
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,11 @@
+import React from 'react'
+
+function Home() {
+  return (
+    <div className='min-h-[74vh] flex justify-center items-center'>
+      <div>Home</div>
+    </div>
+  )
+}
+
+export default Home

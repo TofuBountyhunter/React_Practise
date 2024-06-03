@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className='w-full p-3 border-2 border-b-gray-200 font-medium'>
         <div className='flex justify-around '>
-
+          {/* below one is not working need to fix*/}
           <div className='flex justify-center w-28'><Link to='#'><img src="src\assets\logo.png" alt="BlackBox"/></Link></div>
 
           <div>

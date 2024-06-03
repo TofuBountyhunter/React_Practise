@@ -1,11 +1,19 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Home() {
   return (
-    <div className='min-h-[74vh] flex justify-between items-center'>
-      <div className='w-[50%] flex justify-center'><img className='w-96' src="src/assets/1.png" alt="" /></div>
-      <div className='w-[50%] flex justify-center'>Lel</div>
+    <>
+    <div className='min-h-[74vh] flex justify-center items-center'>
+      <div>Home</div>
     </div>
+    <div className='min-h-[74vh] flex justify-center items-center'>
+      <div>Home</div>
+    </div>
+    <div className='min-h-[74vh] flex justify-center items-center'>
+      <div>Home</div>
+    </div>
+    </>
+
   )
 }
 

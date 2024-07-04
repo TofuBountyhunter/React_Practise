@@ -11,10 +11,10 @@ function Header() {
 
           <div>
             <ul className='flex justify-between w-80 h-[100%] '>
-              <li className='flex items-center'><NavLink className={()=>`p-2`} to='/'>Home</NavLink></li>
-              <li className='flex items-center'><NavLink className={()=>`p-2`} to='/course'>Course</NavLink></li>
-              <li className='flex items-center'><NavLink className={()=>`p-2`} to='/about'>About</NavLink></li>
-              <li className='flex items-center'><NavLink className={()=>`p-2`} to='/contact'>Contact</NavLink></li>
+              <li className='flex items-center'><NavLink className={({isActive})=>`p-2 ${isActive ? "font-bold": ""}`} to='/'>Home</NavLink></li>
+              <li className='flex items-center'><NavLink className={({isActive})=>`p-2 ${isActive ? "font-bold": ""}`} to='/course'>Course</NavLink></li>
+              <li className='flex items-center'><NavLink className={({isActive})=>`p-2 ${isActive ? "font-bold": ""}`}to='/about'>About</NavLink></li>
+              <li className='flex items-center'><NavLink className={({isActive})=>`p-2 ${isActive ? "font-bold": ""}`} to='/contact'>Contact</NavLink></li>
             </ul>
           </div>
 

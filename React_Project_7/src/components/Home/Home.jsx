@@ -6,12 +6,6 @@ function Home() {
     <div className='min-h-[74vh] flex justify-center items-center'>
       <div>Home</div>
     </div>
-    <div className='min-h-[74vh] flex justify-center items-center'>
-      <div>Home</div>
-    </div>
-    <div className='min-h-[74vh] flex justify-center items-center'>
-      <div>Home</div>
-    </div>
     </>
 
   )
